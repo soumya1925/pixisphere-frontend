@@ -1,0 +1,14 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(89deg, #9c9c9e, #f2f5f9); // Bluish-black gradient
+  font-family: 'Roboto', sans-serif;
+  color: #f1f5f9; // Light text for contrast
+}
+  .app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }

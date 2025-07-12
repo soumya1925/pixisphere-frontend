@@ -1,0 +1,70 @@
+.portfolio-gallery-wrapper {
+    margin-top: 2rem;
+  }
+  
+  .portfolio-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+  
+  .portfolio-item {
+    width: calc(25% - 12px); // 4 per row
+    min-width: 220px;
+  
+    @media (max-width: 960px) {
+      width: calc(50% - 12px);
+    }
+  
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  
+  .portfolio-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+  
+    .image-wrapper {
+      width: 100%;
+      padding-top: 66.66%; // 3:2 aspect ratio
+      position: relative;
+    }
+  
+    .portfolio-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .MuiCardContent-root {
+      padding: 10px 16px;
+    }
+  }
+  
+  .portfolio-card {
+    cursor: pointer;
+  
+    .image-wrapper {
+      overflow: hidden;
+      border-radius: 8px;
+  
+      img {
+        transition: transform 0.3s ease;
+      }
+    }
+  
+    &:hover .image-wrapper img {
+      transform: scale(1.05); 
+    }
+  }
