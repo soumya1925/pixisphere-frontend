@@ -70,7 +70,7 @@ Pixisphere is a modern photography marketplace web application where users can e
 
 ## 📁 Folder Structure
 
----
+###
 pixisphere-frontend/
 ├── public/                # Public assets like images and favicon
 ├── src/
@@ -82,7 +82,7 @@ pixisphere-frontend/
 ├── README.md              # Project documentation
 ├── package.json           # Project dependencies and scripts
 ├── tsconfig.json          # TypeScript configuration
----
+
 
 ## 🧪 Running Locally
 
