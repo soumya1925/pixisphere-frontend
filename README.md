@@ -34,8 +34,8 @@ The project is deployed on Vercel and can be accessed at:
 ### 👤 Photographer Profile Page
 - 🧑‍💼 Profile details including name, bio, pricing, styles, tags, and rating.
 - 🖼️ **Portfolio Gallery** with:
-  - Image cards
-  - Click to enlarge (Lightbox with carousel)
+  -Organized image cards showcasing the photographer’s work.
+  -Click-to-Enlarge: Clicking on any image opens it in a full-screen lightbox with carousel functionality — allowing users to swipe or navigate through all shots in an immersive viewer.
 - 📝 **Inquiry Modal**:
   - Validated form (name, email, message)
   - SweetAlert2 confirmation on submit
