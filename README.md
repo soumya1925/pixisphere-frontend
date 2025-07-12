@@ -4,12 +4,12 @@ Pixisphere is a modern photography marketplace web application where users can e
 
 ---
 
-#🚀 Deployment
+# 🚀 Deployment
 The project is deployed on Vercel and can be accessed at:
 
 🔗 https://pixisphere-frontend-a9v7iowsw-soumya-rouls-projects.vercel.app
 
-
+---
 
 ## 🚀 Features Implemented
 
