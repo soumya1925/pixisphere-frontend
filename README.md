@@ -70,7 +70,18 @@ Pixisphere is a modern photography marketplace web application where users can e
 
 ## 📁 Folder Structure
 
-<pre> pixisphere-frontend/ ├── public/ # Static files and images ├── src/ │ ├── app/ # Redux store setup │ ├── components/ # Reusable UI components (SearchBar, Filters, Cards, etc.) │ ├── features/ # Redux slices (photographers, filters, etc.) │ ├── pages/ # Top-level pages (Home, Category, Profile) │ ├── styles/ # SCSS stylesheets (global & modular) ├── .gitignore ├── package.json ├── tsconfig.json ├── README.md </pre>
+---
+pixisphere-frontend/
+├── public/                # Public assets like images and favicon
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── features/          # Redux slices (state management logic)
+│   ├── pages/             # Route pages like Home, Profile, Category
+│   ├── styles/            # SCSS styling files
+│   ├── app/               # Redux store configuration
+├── README.md              # Project documentation
+├── package.json           # Project dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
 ---
 
 ## 🧪 Running Locally
